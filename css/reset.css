@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+   
+    
+}
+
+
+*, /* aplicarlo a todos los elementos*/
+*::before,
+*::after{
+    box-sizing: border-box;  /* se aplica tanto a los elementos normales como a sus pseudoelementos (::before y ::after), asegurando que todos utilicen el modelo de caja border-box */
+    -webkit-box-sizing: border-box;  /* Esta línea es una etiqueta de compatibilidad para navegadores basados en el motor WebKit, como Google Chrome y Safari. Asegura que la propiedad box-sizing también se aplique correctamente en estos navegadores.*/
+    -moz-box-sizing: border-box;   /* esta línea se aplica a navegadores basados en el motor Gecko de Mozilla, como Firefox.*/
+
+}
+
+html{
+    /*desplazamiento debería ser suave y animado en lugar de instantáneo y abrupto*/
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;  /* para que ocupe el 100*100 de la altura vertical que tiene la pagina*/
+    scroll-behavior: smooth;  /* scrolll que se haga, sea suavisado*/
+    text-rendering: optimizeSpeed; /* para renderizar las fuentes de una manera mas rapida*/
+    line-height: 1.5; /* espacio entre líneas será 1.5 */
+}
+
+ul,ol{
+    list-style: none; /* elimina los estilos de viñetas o numeración predeterminados que se aplican a las listas*/
+}
+
+a{
+    display: block;  /* para poder manupularlo como si fuera una caja*/
+    text-decoration: none;
+    font-size: inherit;  /*herede la fuente*/
+    color: inherit;  /* herede el color*/
+}
+
+p a{
+    display: inline; /*  para que no hayan saltos de linea, y los enlces esten alineados con el parrafo*/
+}
+
+img, video, picture, figure{
+    /* ancho máximo del elemento no debe exceder el 100% del contenedor que lo envuelve*/
+    max-width: 100%;
+    display: block;
+
+}
+
+form, input, select, textarea, button, label{ /* para que no cambien la fuente*/
+    display: block;
+    font-family: inherit; 
+    font-size: inherit; 
+    color: inherit;  /*  color para que lo herede*/
+}

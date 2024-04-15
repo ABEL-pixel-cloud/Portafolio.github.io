@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fonts/poppins/poppins.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scroll.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <script src="js/menu.js" defer ></script>
+ 
+
+ 
+
+    
+    <title>Portafolio - Abelardo Lopez</title>
+</head>
+<body>
+   <!-- layout principal, todo el contenido proncipal-->
+   <div class="layout">
+    <!-- barra lateral info del usuario -->
+    <aside class="layout__aside">
+        <section class="aside__user-info">
+
+
+            <!-- informacion general usuario----------------------------------------------- -->
+            <div class="user-info__general">
+                <div class="user-info__container-image">
+
+                    <img src="img/2.jpeg" class="user-info__image" alt="foto de perfil del usuario"/>
+
+                </div>
+
+                <h2 class="user-info__name">Abelardo lopez</h2>
+                <h4 class="user-info__job"> Desarrollador Backend </h4>
+
+            </div>
+
+            <!--menu de navegacion-->
+
+            <nav class="layout__menu">
+                <!--Este es un elemento de lista no ordenad -->
+                <ul class="menu__list">
+
+
+                        <!-- item de la lista --> 
+
+                        <!-- home --> 
+                    <li class="menu__option">
+                         <!-- enlace --> 
+                        <a href="index.html" class="menu__link">
+                             <!-- icono--> 
+                            <i class="menu__icon fa-solid fa-house"></i>
+                            <span class="menu__overlay">Home</span>
+                        </a>
+                    </li>
+
+
+                        <!-- sobre mi --> 
+                    <li class="menu__option">
+                        <!-- enlace --> 
+                       <a href="sobre-mi.html" class="menu__link">
+                            <!-- icono--> 
+                           <i class="menu__icon fa-solid fa-user"></i>
+                           <span class="menu__overlay">Sobre mi</span>
+                       </a>
+                    </li>
+
+                        <!-- estudios --> 
+                   <li class="menu__option">
+                         <!-- enlace --> 
+                        <a href="estudios.html" class="menu__link">
+                        <!-- icono--> 
+                            <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                            <span class="menu__overlay">Curriculum</span>
+                        </a>
+                    </li>
+
+                    
+                        <!-- portafolio --> 
+                    <li class="menu__option">
+                         <!-- enlace --> 
+                       <a href="portafolio.html" class="menu__link">
+                       <!-- icono--> 
+                           <i class="menu__icon fa-solid fa-briefcase"></i>
+                           <span class="menu__overlay">Portafolio</span>
+                       </a>
+                   </li>
+
+
+                </ul>
+            </nav>
+
+            
+            <!--links redes sociales-->
+            <div class="user-info__links">
+                <ul class="links__social">
+
+                    <li class="social__option">
+                        <a href="https://github.com/ABEL-pixel-cloud" class="social__link">
+                            <i class="social__icon  fa-brands fa-github"></i>
+                            
+                        </a>
+                    </li>
+
+
+                    <li class="social__option">
+                        <a href="https://www.linkedin.com/in/abelardo-jose-lopez-payares-desarrollador-back-end/" class="social__link">
+                            <i class="social__icon  fa-brands fa-linkedin"></i>
+                            
+                        </a>
+                    </li>
+
+
+                
+                </ul>
+
+
+            </div>
+
+                  
+            <!--boton curriculum-->
+            <!--boton curriculum-->
+            <div class="user-info__buttons">
+                <a download="HojaDeVida" href="HojaDeVida.pdf"  class="user-info__btn">Descargar CV</a>
+            </div>
+
+
+             <!--pie de pagina-->
+
+            <footer class="user-info__footer">
+                &copy; 2024 Abelardo Lopez
+
+            </footer>
+
+                  
+           
+        </section>
+    </aside>
+
+      <!-- menu responsive  -->
+      <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+     </div>
+
+     <!-- contenido principal  -->
+     <main class="layout__content">
+        <section class="content__page content__resume">
+            <header class="resume__header">
+              <h2 class="resume__title">Curriculum </h2>
+
+            </header>
+            <div class="resume__container">
+
+                <section class="resume__left">
+
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtlite">Formacion</h2>
+                    </header>
+
+                    <div class="resume__timelines">
+                        <article class="timelines__timeline">
+                            <header class="timeline__header">
+                                <h4 class="timeline__year">2023</h4>
+                                <span class="timeline__company">Instituto Tecnologico Metropolitano</span>
+
+                            </header>
+
+                            <div class="timeline__divider"></div>
+                            <div class="timeline__description">
+                                <h3 class="timeline__title">Ingenieria Mecatronica</h3>
+                                <p class="timeline__text">
+                                    Esta disciplina se enfoca en la integración de diferentes tecnologías para crear productos y sistemas que sean más eficientes, seguros y adaptables a las necesidades del usuario.
+                                </p>
+
+                            </div>
+                        </article>
+
+                        <article class="timelines__timeline">
+                            <header class="timeline__header">
+                                <h4 class="timeline__year">2023</h4>
+                                <span class="timeline__company">Instituto Tecnologico Metropolitano</span>
+    
+                            </header>
+    
+                            <div class="timeline__divider"></div>
+                            <div class="timeline__description">
+                                <h3 class="timeline__title">Diplomado (IoT)</h3>
+                                <p class="timeline__text">IoT es la convergencia de la tecnología digital con el mundo físico, habilitando la creación de entornos más inteligentes, conectados y automatizados.</p>
+    
+                            </div>
+                        </article>
+
+                        <article class="timelines__timeline">
+                            <header class="timeline__header">
+                                <h4 class="timeline__year">2024</h4>
+                                <span class="timeline__company">Makaia</span>
+    
+                            </header>
+    
+                            <div class="timeline__divider"></div>
+                            <div class="timeline__description">
+                                <h3 class="timeline__title">Desarrollo backend</h3>
+                                <p class="timeline__text">Esta parte del desarrollo garantiza que la aplicación opere de manera efectiva y satisfaga las necesidades del usuario sin que estos necesiten interactuar directamente con ella.</p>
+    
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtlite">Experiencia</h2>
+                    </header>
+                    <div class="resume__timelines">
+                        <article class="timelines__timeline">
+                            <header class="timeline__header">
+                                <h4 class="timeline__year">2024</h4>
+                                <span class="timeline__company">Makaia</span>
+
+                            </header>
+
+                            <div class="timeline__divider"></div>
+                            <div class="timeline__description">
+                                <h3 class="timeline__title">Desarrollo backend</h3>
+                                <h5 class="timeline__title2">Modulo de estudiantes</h5>
+                                <p class="timeline__text">Desarrollo de un módulo para el manejo completo del proceso de estudiantes. <br>
+                                    ✉️ Implementación de funcionalidades para enviar correos electrónicos con los documentos requeridos. <br>
+                                    📎 Configuración de la opción de anexar documentos a través de la plataforma. <br>
+                                    📄 Gestión integral de documentos, incluyendo almacenamiento, visualización y edición. <br>
+                                    🔐 Administración de las credenciales de los estudiantes para garantizar la seguridad de la plataforma. <br>
+                                    🔄 Asignación de cohortes de manera eficiente para organizar y gestionar grupos de estudiantes. <br>
+                                    </p>
+
+                            </div>
+                        </article>
+
+                      
+                       
+
+
+                     </div>
+
+                </section>
+                <section class="resume__right">
+
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtlite">Habilidades  <span class="subtitle__color">tecnicas</span> </h2>
+                    </header>
+
+                    <div class="resume__skills">
+                        <article class="skills__title">
+                            <h4 class="skills__text">Java</h4>
+                            <span class="skills__number">80%</span>
+
+                        </article>
+                        <div class="skills__progressbar ">
+                            <div class="skills__porcentage skills__porcentage--p5"></div>
+                        </div>
+                        <article class="skills__title">
+                            <h4 class="skills__text">Mysql</h4>
+                            <span class="skills__number">80%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p6"></div>
+                        </div>
+                        <article class="skills__title">
+                            <h4 class="skills__text">Springboot</h4>
+                            <span class="skills__number">90%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p7"></div>
+                        </div>
+                        <article class="skills__title">
+                            <h4 class="skills__text">Html/Css</h4>
+                            <span class="skills__number">70%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p9"></div>
+                        </div>
+
+                    </div>
+
+
+
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtlite">Habilidades  <span class="subtitle__color"> profesionales</span></h2>
+                    </header>
+
+                    <div class="resume__skills">
+                        <article class="skills__title">
+                            <h4 class="skills__text">Empatia</h4>
+                            <span class="skills__number">90%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p1"></div>
+                        </div>
+                        <article class="skills__title">
+                            <h4 class="skills__text">Trabajo en equipo</h4>
+                            <span class="skills__number">90%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p2"></div>
+                        </div>
+                        <article class="skills__title">
+                            <h4 class="skills__text">Gestion del tiempo</h4>
+                            <span class="skills__number">90%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p3"></div>
+                        </div>
+                        <article class="skills__title">
+                            <h4 class="skills__text">Analisis</h4>
+                            <span class="skills__number">90%</span>
+
+                        </article>
+                        <div class="skills__progressbar">
+                            <div class="skills__porcentage skills__porcentage--p4"></div>
+                        </div>
+
+                    </div>
+
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtlite">
+                            Intereses</h2>
+                    </header>
+
+                    <div class="resume__knowledges">
+                        <ul class="knowledges__list">
+                            <li class="knowledges__option">Juegos</li>
+                            <li class="knowledges__option">Musica</li>
+                            <li class="knowledges__option">Peliculas</li>
+                            <li class="knowledges__option">Cafe</li>
+                            <li class="knowledges__option">Programacion</li>
+                            <li class="knowledges__option">Libros</li>
+
+                        </ul>
+
+                    </div>
+
+                </section>
+            </div>
+
+            <div class="resume__certificates">
+                <header class="resume__subheader">
+                    <h2 class="resume__subtlite">Certificados</h2>
+                </header>
+                
+                <section class="certificates__container">
+                    <article class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img src="img\makaia.png" class="certificate__image">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h4 class="certificate__title">Desarrollador back-end</h4>
+                          
+                            <span class="certificate__id"></span>
+                            <span class="certificate__date">26 de febrero del 2024</span>
+
+                        </div>
+
+                    </article>
+
+                    <article class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img src="img/ITM.png" class="certificate__image"/>
+                        </div>
+
+                        <div class="certificate__content">
+                            <h4 class="certificate__title">Diplomado (IoT)</h4>
+                            <span class="certificate__id"></span>
+                            <span class="certificate__date">8  de junio del 2023</span>
+
+                        </div>
+
+                    </article>
+
+                </section>
+            </div>
+          
+         </section>
+           
+     </main>
+   </div>
+    
+</body>
+</html>
